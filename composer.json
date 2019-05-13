@@ -1,0 +1,11 @@
+{
+    "name": "hosein/comments",
+    "description": "this is package \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dcomments packge\u001b[D\u001b[Dage",
+    "authors": [
+        {
+            "name": "HosseinDehghan",
+            "email": "h.dehghan72@yahoo.com"
+        }
+    ],
+    "require": {}
+}
