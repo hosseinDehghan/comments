@@ -54,9 +54,9 @@ class CommentsController extends Controller
         if(!empty($id)){
             if(is_numeric($id)){
                 $comment=Comment::select("*")->where("id",$id)->first();
-                if($comment->like!=0) {
-                    $comment->like--;
-                }
+               
+                    $comment->dislike++;
+                
                 $comment->save();
             }
         }
